@@ -44,4 +44,9 @@ ul.posts li {
 .img-wrapper{
    border:1px dotted silver;
    height:20px;
+    width:20px;
+}
+.img-wrapper img{
+   width:100%;
+    height:auto;
 }
