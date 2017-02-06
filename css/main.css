@@ -4,7 +4,10 @@
 .tabs li a:hover { cursor:pointer}
 
 .tabs:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
-
+#view_one, #view_two, #view_three, #view_four{
+display:none;
+}
 #view_one:target, #view_two:target, #view_three:target, #view_four:target {
   z-index: 1;
+  display:block;
 }
