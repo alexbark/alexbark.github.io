@@ -38,9 +38,9 @@ App.topics = [
    id:3
   },
   {
-   name:"How I spent summer",
+   name:"Some hot topic",
    content:"Summer is going to be hot",
-   location: "#spent-summer",
+   location: "#topic",
    dateOfPosting: new Date().setDate(27),
    associatedImgUrl:'assets/img/summer.jpg',
    id:4

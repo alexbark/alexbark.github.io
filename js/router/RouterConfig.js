@@ -20,4 +20,11 @@ App.routerConfig = [
 				App.TopicsViewCtrl([]);
 			}
 		},
+		{
+			route: "#topic",
+			templateId: "topic",
+			setView: function(){
+				App.TopicViewCtrl([]);
+			}
+		},
 	];
