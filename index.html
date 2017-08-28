@@ -1,18 +1,29 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<title>no title yet</title>
-		<link rel="stylesheet" type="text/css" href="/css/main.css">
-	</head>
-	<body>
-             <div class="main-content">
-		     <p>Lorem ipsum hala sperverylongword gala bala vala tala gala ala mala sperverylongword 
-		     Lorem ipsum hala sperverylongword gala bala vala tala gala ala mala sperverylongword
-		     Lorem ipsum hala sperverylongword gala bala vala tala gala ala mala sperverylongword
-		     Lorem ipsum hala sperverylongword gala bala vala tala gala ala mala sperverylongword
-		     Lorem ipsum hala sperverylongword gala bala vala tala gala ala mala sperverylongword
-		     Lorem ipsum hala sperverylongword gala bala vala tala gala ala mala sperverylongword
-		     Lorem ipsum hala sperverylongword gala bala vala tala gala ala mala sperverylongword</p>
-	     </div>
-	</body>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link rel="stylesheet" href="css/main.css">
+	<script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+</head>
+<body>
+  <div class="content-box">
+    <div class="top-navigation">
+			<a href="#home">home</a>
+			<a href="#about">about</a>
+			<a href="#topics">topics</a>
+    </div>
+		<div id="app-container"></div>
+  </div>
+	<script src="js/app/App.js"></script>
+	<script src="js/data/topics.js"></script>
+	<script src="js/util/UpdateView.js"></script>
+	<script src="js/router/RouterConfig.js"></script>
+	<script src="js/controllers/HomeViewCtrl.js"></script>
+	<script src="js/controllers/AboutViewCtrl.js"></script>
+	<script src="js/controllers/TopicsViewCtrl.js"></script>
+	<script src="js/util/HighlightRoute.js"></script>
+	<script src="js/router/Router.js"></script>
+</body>
 </html>

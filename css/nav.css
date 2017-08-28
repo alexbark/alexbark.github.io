@@ -1,0 +1,25 @@
+.top-navigation{
+  height: 60px;
+  border-bottom: 1px solid gainsboro;
+}
+.top-navigation a{
+   padding: 6px 30px;
+   margin-right: 10px;
+   border-radius: 2px;
+   text-transform: uppercase;
+}
+.top-navigation a:hover,
+.top-navigation a.is-active{
+  position: relative;
+  top:-1px;
+  left:-1px;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+.top-navigation a.is-active,
+.top-navigation a.is-active:hover{
+  color:#fff;
+  background: rgba(27, 86, 183, 0.7);
+}
+.top-navigation a:hover{
+  background: rgb(241, 241, 241);
+}

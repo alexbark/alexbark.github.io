@@ -1,6 +1,5 @@
-.main-content{
-     max-width:1100px;
-     width:20%;
-     margin:auto;
-     font-size:18px;
-}
+@import 'common.css';
+@import 'nav.css';
+@import 'home.css';
+@import 'topicsPage.css';
+@import 'appContainer.css';

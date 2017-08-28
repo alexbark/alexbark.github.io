@@ -1,0 +1,91 @@
+.list-of-topics{
+  width: 300px;
+  max-height: 300px;
+  min-height: 300px;
+  overflow: auto;
+  border-right: 1px solid gainsboro;
+}
+.list-of-topics a{
+  display: inline-block;
+  height: 34px;
+  line-height: 34px;
+  width: 100%;
+}
+.list-of-topics a:hover{
+  background: #eee;
+}
+.search-input {
+    width: 100%;
+    height: 34px;
+    line-height: 34px;
+    padding-left: 10px;
+    padding-right: 31px;
+    color: #333;
+    border-radius: 3px;
+    border: 1px solid #ddd;
+}
+.search-input:hover,
+.search-input:focus{
+  border: 1px solid #b9b9b9;
+}
+.input-wrapper{
+  position: relative;
+  width: 300px;
+  margin: 20px 0;
+}
+.search-icon{
+  position: absolute;
+  display: inline-block;
+  width:26px;
+  height: 26px;
+  top: 4px;
+  right: 5px;
+  background: url(../assets/img/icon-search.png) no-repeat;
+  background-size: 25px 25px;
+}
+.newest-topic{
+  width: 260px;
+  height: 300px;
+  box-shadow: 2px 2px 6px 3px rgba(0,0,0,0.05);
+  float: right;
+  background: #fff;
+}
+.newest-topic:hover{
+  cursor: pointer;
+}
+.newest-topic-title{
+  margin:10px 16px;
+  text-transform: uppercase;
+}
+.newest-topic-content{
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+}
+.newest-topic:hover img{
+  opacity: 0.6;
+  width:102%;
+  transition: all 1s;
+}
+.newest-topic-content img{
+  width: 100%;
+  height: auto;
+  transition: all 1s;
+}
+.newest-topic:hover .newest-topic-text{
+  width: 102%;
+  font-size: 15px;
+  transition: all 1s;
+}
+.newest-topic-text{
+    transition: all 1s;
+}
+.newest-topic-text:after{
+  content: "";
+  width: 100%;
+  height: 60px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(180deg,hsla(0,0%,100%,0) 0,#fff);
+}
