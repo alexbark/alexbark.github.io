@@ -4,7 +4,7 @@ SUMMER.generateSlides = function* (){
 	yield {imgSrc: "summer/img/highArt.jpg", text: "high Berlin's art", imgWidth: "vert"};
 	yield {imgSrc: "summer/img/drunk.jpg", text: "finally drunk", imgWidth: "horiz"};
 	yield {imgSrc: "summer/img/newCar.jpg", text: "wife's happy w/ a new car", imgWidth: "horiz"};
-  /*yield {imgSrc: "summer/img/fishing.jpg", text: "fishing at Aquarium", imgWidth: "horiz"};
+  yield {imgSrc: "summer/img/fishing.jpg", text: "fishing at Aquarium", imgWidth: "horiz"};
   yield {imgSrc: "summer/img/ghosts.jpg", text: "and couple of ghosts", imgWidth: "horiz"};
   yield {imgSrc: "summer/img/layers.jpg", text: "taking picture of taking picture", imgWidth: "horiz"};
 	yield {imgSrc: "summer/img/prague3.jpg", text: "after Berlin I got to Prague", imgWidth: "vert"};
@@ -26,6 +26,6 @@ SUMMER.generateSlides = function* (){
 	yield {imgSrc: "summer/img/feeding.jpg", text: "we're feeding a bird in Minsk", imgWidth: "vert"};
 	yield {imgSrc: "summer/img/mnom.jpg", text: "mnom mnom at the same place", imgWidth: "horiz"};
 	yield {imgSrc: "summer/img/nf.jpg", text: "summer party was a huge fun!", imgWidth: "horiz"};
-	yield {imgSrc: "summer/img/firework.jpg", text: "firework was amazing!", imgWidth: "horiz"};*/
+	yield {imgSrc: "summer/img/firework.jpg", text: "firework was amazing!", imgWidth: "horiz"};
 
 }
