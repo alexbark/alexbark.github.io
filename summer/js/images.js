@@ -2,7 +2,7 @@ SUMMER.generateSlides = function* (){
 	yield {imgSrc: "summer/img/berlin.jpg", text: "it started in Berlin...", imgWidth: "vert"};
 	yield {imgSrc: "summer/img/almostDrunk.jpg", text: "trying to fly", imgWidth: "vert"};
 	yield {imgSrc: "summer/img/highArt.jpg", text: "high Berlin's art", imgWidth: "vert"};
-	yield {imgSrc: "summer/img/drunk.jpg", text: "finally drunk", imgWidth: "horiz"};
+	yield {imgSrc: "summer/img/drunk.jpg", text: "pretending to be drunk", imgWidth: "horiz"};
 	yield {imgSrc: "summer/img/newCar.jpg", text: "wife's happy w/ a new car", imgWidth: "horiz"};
   yield {imgSrc: "summer/img/fishing.jpg", text: "fishing at Aquarium", imgWidth: "horiz"};
   yield {imgSrc: "summer/img/ghosts.jpg", text: "and couple of ghosts", imgWidth: "horiz"};
@@ -14,13 +14,13 @@ SUMMER.generateSlides = function* (){
 	yield {imgSrc: "summer/img/road.jpg", text: "but Belarus is amazing too", imgWidth: "horiz"};
 	yield {imgSrc: "summer/img/sea.jpg", text: "...on the Minsk sea", imgWidth: "horiz"};
 	yield {imgSrc: "summer/img/lakes.jpg", text: "..or at Braslav's lakes", imgWidth: "vert"};
-	yield {imgSrc: "summer/img/snail.jpg", text: "..or anywhere in the nature", imgWidth: "vert"};
+	yield {imgSrc: "summer/img/snail.jpg", text: "..or anywhere in nature", imgWidth: "vert"};
 	yield {imgSrc: "summer/img/grodnoMorning.jpg", text: "Goodmorning in Grodno", imgWidth: "vert"};
 	yield {imgSrc: "summer/img/drusk.jpg", text: "Druskininkai isn't bad", imgWidth: "horiz"};
 	yield {imgSrc: "summer/img/stupid.jpg", text: "...except that crazy guy", imgWidth: "vert"};
 	yield {imgSrc: "summer/img/monk.jpg", text: "or that wired Shaolin monk", imgWidth: "horiz"};
   yield {imgSrc: "summer/img/icecream.jpg", text: "somewhere behind the ice cream", imgWidth: "vert"};
-  yield {imgSrc: "summer/img/doves.jpg", text: "doves in Vilnus", imgWidth: "horiz"};
+  yield {imgSrc: "summer/img/doves.jpg", text: "doves in Vilnius", imgWidth: "horiz"};
 	yield {imgSrc: "summer/img/hot.jpg", text: "finally hot came to Belarus", imgWidth: "horiz"};
 	yield {imgSrc: "summer/img/drink.jpg", text: "just should mention it here", imgWidth: "vert"};
 	yield {imgSrc: "summer/img/feeding.jpg", text: "we're feeding a bird in Minsk", imgWidth: "vert"};
