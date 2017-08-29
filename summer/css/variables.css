@@ -1,0 +1,9 @@
+:root{
+  --bg-main: #f9f9f9;
+  --canvas-height: 200px;
+  --page-full-height: 100vh;
+  --page-full-width: 100vw;
+  --canvas-center-align: calc(var(--page-full-height)/2 - var(--canvas-height)/2) auto;
+  --ease: all 2s ease; /*main animation style*/
+  --animation-time: 16s;
+}

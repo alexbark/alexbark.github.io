@@ -1,0 +1,8 @@
+canvas{
+	font-family: 'Just Me Again Down Here', cursive;
+	display: block;
+  margin: var(--canvas-center-align);
+}
+canvas.to-bottom{
+	margin-top: calc(var(--page-full-height) - var(--canvas-height));
+}

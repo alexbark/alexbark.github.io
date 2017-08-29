@@ -1,0 +1,12 @@
+.img-container{
+	position: absolute;
+	top:0;
+	width: 100vw;
+	height: calc(var(--page-full-height) - var(--canvas-height));
+	display: none;
+}
+.img-container img{
+   height: 619px;
+   display: block;
+   opacity: 1;
+}
