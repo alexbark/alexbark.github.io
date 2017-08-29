@@ -11,3 +11,25 @@ body{
     height: 100vh;
     top: 0;
 }
+.theend{
+  z-index: 20;
+  position: absolute;
+	width: 100vw;
+  top: 100vh;
+}
+.theend .text{
+	font-family: 'Just Me Again Down Here', cursive;
+  font-size: 55px;
+	color:#fff;
+	width: 400px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+.theend .text.title{
+	text-decoration: underline;
+}
+.theend .text.end,
+.theend .text.fun{
+	 margin-top: 180px;
+}

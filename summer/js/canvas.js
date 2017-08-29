@@ -120,7 +120,9 @@
         var slide = slides.next();
         return !slide.done ?  showSlide(slide) : ( clearInterval(startSlides),
                                                   ps.emit("slidesEnd"),
-                                                  fadeAudio())
+                                                  fadeAudio(),
+                                                  showTitles()
+                                                  )
       }, delay)
     }
   })
@@ -133,13 +135,18 @@
 
  function fadeAudio(){
     var stopFading = setInterval(() => {
-      audio.volume = audio.volume.toFixed(2) - 0.05;
+      audio.volume = audio.volume.toFixed(2) - 0.01;
       if(audio.volume <= 0){
         clearInterval(stopFading);
         audio.pause();
       }
     },400)
+  }
 
+  function showTitles(){
+     var stopTitles = setTimeout(() => {
+       doc.querySelector(".theend").className += " titles"
+     }, 2000)
   }
 
 
