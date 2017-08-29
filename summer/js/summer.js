@@ -1,30 +1,5 @@
 var SUMMER = SUMMER || {};
 
-SUMMER.pubsub = (function() {
-    var topics = {};
-
-    return {
-        on: function(topic, listener) {
-            if (!topics[topic]) topics[topic] = {
-                queue: []
-            };
-
-            var index = topics[topic].queue.push(listener) - 1;
-            return {
-                off: function() {
-                    delete topics[topic].queue[index];
-                }
-            };
-        },
-        emit: function(topic, info) {
-            if (!topics[topic] || !topics[topic].queue.length) return;
-            var items = topics[topic].queue;
-            items.forEach(function(item) {
-                item(info || {});
-            });
-        }
-    };
-})();
 SUMMER.generateEffect = function(){
 
   var effects = [ "verticalRotate", "horizontalRotate", "scaleDown", "scaleUp",
