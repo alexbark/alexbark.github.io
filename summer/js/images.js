@@ -18,7 +18,7 @@ SUMMER.generateSlides = function* (){
 	yield {imgSrc: "summer/img/grodnoMorning.jpg", text: "Goodmorning in Grodno", imgWidth: "vert"};
 	yield {imgSrc: "summer/img/drusk.jpg", text: "Druskininkai isn't bad", imgWidth: "horiz"};
 	yield {imgSrc: "summer/img/stupid.jpg", text: "...except that crazy guy", imgWidth: "vert"};
-	yield {imgSrc: "summer/img/monk.jpg", text: "or that wired Shaolin monk", imgWidth: "horiz"};
+	yield {imgSrc: "summer/img/monk.jpg", text: "or that wierd Shaolin monk", imgWidth: "horiz"};
   yield {imgSrc: "summer/img/icecream.jpg", text: "somewhere behind the ice cream", imgWidth: "vert"};
   yield {imgSrc: "summer/img/doves.jpg", text: "doves in Vilnius", imgWidth: "horiz"};
 	yield {imgSrc: "summer/img/hot.jpg", text: "finally hot came to Belarus", imgWidth: "horiz"};
