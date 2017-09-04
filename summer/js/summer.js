@@ -30,6 +30,9 @@ SUMMER.handleSlides = function(slide){
    function putImgOnScreen(img){
       clearImgContainer()
       document.querySelector(".img-container").appendChild(img);
+      setTimeout(() => {
+        img.style.setProperty('--img-width', img.width + "px");
+      },300)
    }
    function clearImgContainer(){
       document.querySelector(".img-container").innerHTML = "";
