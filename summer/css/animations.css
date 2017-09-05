@@ -12,10 +12,6 @@
   transition: var(--ease);
 }
 
-.img-container img{
-  height: 80%;
-}
-
 @keyframes moveFromTop {
   0% {
     margin-top: calc(0px - var(--page-full-height));
@@ -40,11 +36,11 @@
   }
   10% {
     margin-top: 100px;
-    margin-left: calc(var(--page-full-width)/2 - var(--img-width)/2);
+    margin-left: calc(var(--page-full-width)/2 - 1018px/2);
   }
   100% {
     margin-top: 100px;
-    margin-left: calc(var(--page-full-width)/2 - var(--img-width)/2);
+    margin-left: calc(var(--page-full-width)/2 - 1018px/2);
   }
 }
 @keyframes moveFromLeftVert {
@@ -54,11 +50,11 @@
   }
   20% {
     margin-top: 100px;
-    margin-left: calc(var(--page-full-width)/2 - var(--img-width)/2);
+    margin-left: calc(var(--page-full-width)/2 - 450px/2);
   }
   100% {
     margin-top: 100px;
-    margin-left: calc(var(--page-full-width)/2 - var(--img-width)/2);
+    margin-left: calc(var(--page-full-width)/2 - 450px/2);
   }
 }
 @keyframes moveFromRightHoriz {
@@ -68,11 +64,11 @@
   }
   10% {
     margin-top: 100px;
-    margin-left: calc(var(--page-full-width)/2 - var(--img-width)/2);
+    margin-left: calc(var(--page-full-width)/2 - 1018px/2);
   }
   100% {
     margin-top: 100px;
-    margin-left: calc(var(--page-full-width)/2 - var(--img-width)/2);
+    margin-left: calc(var(--page-full-width)/2 - 1018px/2);
   }
 }
 @keyframes moveFromRightVert {
@@ -82,11 +78,11 @@
   }
   20% {
     margin-top: 100px;
-    margin-left: calc(var(--page-full-width)/2 - var(--img-width)/2);
+    margin-left: calc(var(--page-full-width)/2 - 450px/2);
   }
   100% {
     margin-top: 100px;
-    margin-left: calc(var(--page-full-width)/2 - var(--img-width)/2);
+    margin-left: calc(var(--page-full-width)/2 - 450px/2);
   }
 }
 
